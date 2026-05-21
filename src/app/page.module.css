@@ -1,0 +1,133 @@
+.main {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top > article {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.top > article > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top > article > h2 {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.top > article > span {
+  font-size: 0.8rem;
+}
+
+.mid {
+  width: 100%;
+  display: flex;
+  margin: 3rem auto;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.mid > article {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.mid > article > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.mid > article > header h3 {
+  font-size: 1rem;
+}
+
+.mid > article > section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mid > article > section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.mid > article > section > div img {
+  background-color: rgb(255, 221, 199);
+  height: 50px;
+  width: 50px;
+}
+
+.mid > article > section:nth-of-type(1) > div span {
+    font-size: 0.9rem;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 15px;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom > article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.bottom > article header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.bottom > article:nth-of-type(1) button {
+  background-color: rgb(9, 198, 91);
+  display: block;
+  border-radius: 15px;
+  margin-top: 20px;
+  color: white;
+  padding: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.bottom > article:nth-of-type(1) span {
+  margin-top: 1rem;
+  color: gray;
+  display: inline-block;
+}
+
+.bottom > article:nth-of-type(2) .buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.bottom > article:nth-of-type(2) .buttons button {
+  padding: 15px;
+  font-size: 1.3rem;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
