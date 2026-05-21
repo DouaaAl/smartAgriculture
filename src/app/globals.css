@@ -13,6 +13,10 @@
 html {
   height: 100%;
 }
+a {
+  display: flex;
+  gap: 1rem;
+}
 
 html,
 body {
@@ -43,4 +47,22 @@ a {
 
 ul {
   list-style: none;
+}
+
+@media screen and (max-width: 1000px){
+ body {
+   grid-template-columns: 24% 76%; 
+ }
+}
+
+@media screen and (max-width: 800px){
+ body {
+   grid-template-columns: 30% 70%; 
+ }
+}
+
+@media screen and (max-width: 650px){
+ body {
+   grid-template-columns: 100%; 
+ }
 }

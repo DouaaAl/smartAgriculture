@@ -46,73 +46,62 @@ export default function RootLayout({ children }) {
           </article>
           <ul>
             <li>
+            <a href="/monitoring">
                <Image height={50} width={50} alt="dashboard" src={"/icons/dashboard.png"} /> <h3>Dashboard</h3>
+            </a>
             </li>
             
             <li>
+              <a href="/alerts">
               <Image height={50} width={50} alt="alerts" src={"/icons/alert.png"} /> 
               <h3>Alerts</h3>
+              </a>
             </li>
 
             <li>
+              <a href="/map">
               <Image height={50} width={50} alt="field map" src={"/icons/map.png"} /> 
               <h3>Field map</h3>
+              </a>
             </li>
 
             <span>Monitoring</span>
             
             <li>
+              <a href="/monitoring">
               <Image height={50} width={50} alt="Soil sensors" src={"/icons/sensors.png"} /> 
               <h3>Soil Sensors</h3>
+              </a>
             </li>
 
             <li>
-              <Image height={50} width={50} alt="Irrigation" src={"/icons/Irrigation.png"} />  
-              <h3>Irrigation</h3>
+              <a href="/monitoring">
+                <Image height={50} width={50} alt="Irrigation" src={"/icons/Irrigation.png"} />  
+                <h3>Irrigation</h3>
+              </a>
             </li>
 
-            <li> 
-              <Image height={50} width={50} alt="rover status" src={"/icons/rover.png"} /> 
-              <h3>Rover status</h3>
-            </li>
 
             <span>Analytics</span>
             
             <li>
-              <Image height={50} width={50} alt="reports" src={"/icons/Reports.png"} /> 
-              <h3>Reports</h3>
-            </li>
-            
-            <li>
+              <a href="/chatbot">
               <Image height={50} width={50} alt="AI assistant" src={"/icons/ai.png"} /> 
               <h3>AI assistant</h3>
+              </a>
             </li>
             
-            <li>
-              <Image height={50} width={50} alt="Weather" src={"/icons/weather.png"} /> 
-              <h3>Weather</h3>
-            </li>
-            
-            <span>Settings</span>
-            
-            <li>
-              <Image height={50} width={50} alt="configure" src={"/icons/configure.png"} />  
-              <h3>Configure</h3>
-            </li>
           </ul>
         </nav>
         <div>
           <header className={styles.header}>
-            <select>
-              <option>Field A</option>
-            </select>
             <article>
               <Image src={"/icons/location.png"} height={30} width={30} alt="location" />
               <h3>Rabat, Ma</h3>
             </article>
             <article>
               <Image src={"/icons/calendar.png"} height={30} width={30} alt="date" />
-              <h3>May 17, 2026</h3>
+              <h3>May 21, 2026</h3>
             </article>
           </header>
         {children}

@@ -2,6 +2,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import dynamic from 'next/dynamic'
 import mqtt from 'mqtt'
+import styles from './map.module.css';
 
 // Leaflet must be imported dynamically (no SSR) — it uses window context objects
 const MapComponent = dynamic(() => import('../components/MapPicker'), { ssr: false })

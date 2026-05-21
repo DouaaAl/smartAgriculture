@@ -131,3 +131,212 @@
   border-radius: 15px;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 1000px){
+.main {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.top {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.top > article {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.top > article > div {
+  gap: 1rem;
+}
+
+.top > article > h2 {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.top > article > span {
+  font-size: 0.8rem;
+}
+
+.mid {
+  margin: 2rem auto;
+  gap: 2rem;
+    flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.mid > article {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.mid > article > header {
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.mid > article > header h3 {
+  font-size: 0.9rem;
+}
+
+.mid > article > section {
+  gap: 1rem;
+}
+
+.mid > article > section > div {
+  gap: 1rem;
+}
+
+.mid > article > section > div img {
+  height: 40px;
+  width: 40px;
+}
+
+.mid > article > section:nth-of-type(1) > div span {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    margin-top: 0.8rem;
+}
+
+.bottom {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.bottom > article {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.bottom > article header {
+  margin-bottom: 1rem;
+}
+
+.bottom > article:nth-of-type(1) button {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.bottom > article:nth-of-type(1) span {
+  margin-top: 0.9rem;
+}
+
+.bottom > article:nth-of-type(2) .buttons {
+  gap: 1rem;
+}
+
+.bottom > article:nth-of-type(2) .buttons button {
+  padding: 15px;
+  font-size: 1.1rem;
+}
+
+
+}
+
+
+@media screen and (max-width: 650px){
+.main {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.top {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.top > article {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.top > article > div {
+  gap: 1rem;
+}
+
+.top > article > h2 {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.top > article > span {
+  font-size: 0.8rem;
+}
+
+.mid {
+  margin: 2rem auto;
+  gap: 2rem;
+    flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.mid > article {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.mid > article > header {
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.mid > article > header h3 {
+  font-size: 0.9rem;
+}
+
+.mid > article > section {
+  gap: 1rem;
+}
+
+.mid > article > section > div {
+  gap: 1rem;
+}
+
+.mid > article > section > div img {
+  height: 30px;
+  width: 30px;
+}
+
+.mid > article > section:nth-of-type(1) > div span {
+    font-size: 0.6rem;
+    padding: 0.4rem;
+    margin-top: 0.6rem;
+}
+
+.bottom {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.bottom > article {
+  padding: 10px;
+}
+
+.bottom > article header {
+  margin-bottom: 0.7rem;
+}
+
+.bottom > article:nth-of-type(1) button {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.bottom > article:nth-of-type(1) span {
+  margin-top: 0.7rem;
+}
+
+.bottom > article:nth-of-type(2) .buttons button {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+
+}

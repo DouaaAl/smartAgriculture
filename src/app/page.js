@@ -62,9 +62,12 @@ export default function Home() {
 
         {/* Soil Moisture — LIVE PACKETS FROM HIVEMQ */}
         <article>
+          
           <div>
-            <Image width={20} height={20} alt="soil moisture" src="/icons/irrigation.png" />
-            <span>Soil Moisture</span>
+            <a href="/monitoring">            
+              <Image width={20} height={20} alt="soil moisture" src="/icons/irrigation.png" />
+              <span>Soil Moisture</span>
+            </a>
           </div>
           <h2>{sensors?.soilMoisture !== undefined ? `${sensors.soilMoisture}%` : '—'}</h2>
           <span>
@@ -77,8 +80,10 @@ export default function Home() {
         {/* Air temp — LIVE PACKETS FROM HIVEMQ */}
         <article>
           <div>
+            <a href="/monitoring">
             <Image width={20} height={20} alt="temperature" src="/icons/temperature.png" />
             <span>Air temp</span>
+            </a>
           </div>
           <h2>{sensors?.temperature !== undefined ? `${sensors.temperature}°C` : '—'}</h2>
           <span>Humidity: {sensors?.humidity !== undefined ? `${sensors.humidity}%` : '—'}</span>
@@ -193,10 +198,10 @@ export default function Home() {
             <Image src={'/icons/chat.png'} width={20} height={20} alt="chat" />
             <h3>AI crop assistant</h3>
           </header>
-          <div className={styles.buttons}>
+          <a href="/chatbot" className={styles.buttons}>
             <button type="button">Ask about your farm</button>
             <button type="button">Ask AI</button>
-          </div>
+          </a>
         </article>
       </div>
     </main>
