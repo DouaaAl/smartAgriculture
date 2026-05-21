@@ -90,11 +90,11 @@ export default function MapPage() {
   }, []) // Dependency array is completely clean now, ensuring optimal rendering speed!
 
   return (
-    <div style={{ display:'flex', height:'100vh', fontFamily:'var(--font-sans)' }}>
+    <div className={styles.fullMap} style={{ display:'flex', height:'100vh', fontFamily:'var(--font-sans)' }}>
 
       {/* ── Left side control configuration panel ── */}
-      <div style={{
-        width:      420,
+      <div className={styles.adviceSide} style={{
+        width:      360,
         overflowY:  'auto',
         borderRight:'0.5px solid #e5e7eb',
         display:    'flex',
@@ -367,7 +367,7 @@ export default function MapPage() {
       </div>
 
       {/* ── Visual Map Rendering Canvas (Right Panel) ── */}
-      <div style={{ flex:1, position:'relative' }}>
+      <div style={{ flex:1, position:'relative', minWidth:300 }}>
         <MapComponent onLocationSelect={handleLocationSelect} selected={selected} />
       </div>
     </div>

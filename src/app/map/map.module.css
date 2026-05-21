@@ -1,0 +1,10 @@
+.fullMap {
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:900px){
+    .adviceSide{
+        width: 100% !important;
+    }
+}
